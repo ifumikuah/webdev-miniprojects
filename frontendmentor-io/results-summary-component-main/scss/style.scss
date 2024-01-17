@@ -1,0 +1,193 @@
+// Vars
+
+$font-size: 18px;
+$font-family: "Hanken Grotesk", sans-serif;
+
+$light-slate-blue-background: hsl(252, 100%, 67%);
+$light-royal-blue-background: hsl(241, 81%, 54%);
+$violet-blue-circle: hsla(256, 72%, 46%, 1);
+$persian-blue-circle: hsla(241, 72%, 46%, 0);
+
+@mixin linear-grad($clr-1, $clr-2) {
+  background: linear-gradient(180deg, $clr-1 5%, $clr-2 100%);
+}
+
+$white: hsl(0, 0%, 100%);
+$pale-blue: hsl(221, 100%, 96%);
+$light-lavender: hsl(241, 100%, 89%);
+$dark-gray-blue: hsl(224, 30%, 27%);
+
+$wght-normal: 500;
+$wght-bold: 700;
+$wght-bolder: 800;
+
+// Reset
+
+html {
+  box-sizing: border-box;
+  font-size: $font-size;
+  font-family: $font-family;
+  font-weight: $wght-normal;
+  color: $dark-gray-blue;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: $wght-normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+// Main Style
+
+.result {
+  min-height: 430px;
+  width: 715px;
+  margin: 5rem auto;
+  display: flex;
+  box-shadow: 2px 2px 15px -2px rgba(0,0,0,0.2);
+  border-radius: 1.8rem;
+  & > * {
+    flex-basis: 50%;
+  }
+  @media only screen and (max-width: 700px) {
+    flex-direction: column;
+    width: 375px;
+  }
+  @media only screen and (max-width: 375px) {
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    border-radius: 0;
+    .result__overall {
+      border-radius: 0 0 1.8rem 1.8rem;
+    }
+  }
+  h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+}
+
+.result__overall {
+  padding: 2.5rem;
+  @include linear-grad($light-slate-blue-background, $light-royal-blue-background);
+  color: $light-lavender;
+  border-radius: 1.8rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .total-result {
+    margin: 1.5rem auto;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @include linear-grad($violet-blue-circle, $persian-blue-circle);
+    .total-point {
+      color: $white;
+      font-weight: 800;
+      font-size: 3.5rem;
+    }
+  }
+  .total-result___desc {
+    .desc-title {
+      color: $white;
+      font-size: 1.6rem;
+      margin-bottom: .6rem;
+    }
+    p {
+      font-size: .8rem;
+    }
+  }
+}
+
+.result__details {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .button--confirm {
+    width: 100%;
+    padding: .8rem 0;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: $wght-bold;
+    border: none;
+    outline: none;
+    border-radius: 5rem;
+    background-color: $dark-gray-blue;
+    color: $white;
+    font-family: inherit;
+    cursor: pointer;
+    &:hover {
+      background-color: lighten($dark-gray-blue, 5%)
+    }
+    &:active {
+      @include linear-grad($light-slate-blue-background, $light-royal-blue-background);
+    }
+  }
+  .category {
+    .category__card {
+      margin: .8rem auto;
+      padding: .8rem;
+      border-radius: .6rem;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      font-weight: $wght-bold;
+      .category__title__wrap {
+        flex: 1;
+        .category__title {
+          display: inline-flex;
+          margin-left: .3rem;
+        }
+        img {
+          transform: scale(120%) translateY(2.5px);
+        }
+      }
+      .category__score {
+        font-size: 1.1rem;
+        font-weight: $wght-bolder;
+        margin: 0 .4rem;
+        color: $dark-gray-blue
+      }
+      .category__score--etc {
+        color: fade-out($dark-gray-blue,.5)
+      }
+    }
+  }
+}
+
+
+// Toggleable Classes for Category Color Palette
+
+$light-red: hsl(0, 100%, 67%);
+$orangey-yellow: hsl(39, 100%, 56%);
+$green-teal: hsl(166, 100%, 37%);
+$cobalt-blue: hsl(234, 85%, 45%);
+
+$color-palettes: $light-red, $orangey-yellow, $green-teal, $cobalt-blue;
+$palette-num: length($color-palettes);
+
+@for $i from 1 through $palette-num {
+  .color-palette-#{$i} {
+    color: nth($color-palettes, $i );
+    background-color: fade-out(nth($color-palettes, $i ), .9);
+  }
+}

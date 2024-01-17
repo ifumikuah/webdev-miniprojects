@@ -1,0 +1,16 @@
+{
+  "name": "results-summary-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Results summary component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch scss:style",
+    "build": "sass scss:style"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.69.7"
+  }
+}

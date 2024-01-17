@@ -4,7 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style/style.css">
   
   <title>Frontend Mentor | Results summary component</title>
 
@@ -15,33 +19,42 @@
   </style>
 </head>
 <body>
+  <main class="result">
+    <div class="result__overall">
+      <h1>Your Result</h1>
+      <div class="total-result">
+        <h2 class="total-point" id="total-point">76</h2>
+        <p>of 100</p>
+      </div>
+      <div class="total-result___desc">
+        <h3 class="desc-title">Great</h3>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+    </div>
+    <div class="result__details">
+      <div class="separate-button-and-confirm">
+        <h1>Summary</h1>
 
-  Your Result
-  76
-  of 100
+        <script id="category-template" type="text/x-handlebars-template">
+          {{#each output_data}}
+            <div class="category__card">
+              <div class="category__title__wrap">
+                <img src="{{icon}}" alt="">
+                <span class="category__title">{{category}}</span>
+              </div>
+              <span class="category__score">{{score}}</span>
+              <span class="category__score--etc">/ 100</span>
+            </div>
+          {{/each }}
+        </script>
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+        <div class="category" id="category-output"></div>
+        
+      </div>
+      <button class="button--confirm" id="submit" >Continue</button>
+    </div>
+  </main>
+  <script src="script/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js"></script>
 </body>
 </html>
