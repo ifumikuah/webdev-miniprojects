@@ -25,10 +25,16 @@ img {
   height: auto;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
 .result {
   min-height: 430px;
   width: 715px;
-  margin: 5rem auto;
   display: flex;
   box-shadow: 2px 2px 15px -2px rgba(0, 0, 0, 0.2);
   border-radius: 1.8rem;
