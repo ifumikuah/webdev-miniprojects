@@ -1,0 +1,3 @@
+[submodule "self-miniprojects/random-quotes-generator"]
+	path = self-miniprojects/random-quotes-generator
+	url = https://github.com/ifumikuah/random-quotes-generator.git
