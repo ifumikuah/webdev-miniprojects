@@ -74,7 +74,7 @@ button {
 }
 
 .card:nth-child(1) .svg-img {
-  background-image: url('/images/icon-sedans.svg');
+  background-image: url('images/icon-sedans.svg');
 }
 
 .card:nth-child(1) button{
@@ -90,7 +90,7 @@ button {
 }
 
 .card:nth-child(2) .svg-img {
-  background-image: url('/images/icon-suvs.svg');
+  background-image: url('images/icon-suvs.svg');
 }
 
 .card:nth-child(2) button{
@@ -106,7 +106,7 @@ button {
 }
 
 .card:nth-child(3) .svg-img {
-  background-image: url('/images/icon-luxury.svg');
+  background-image: url('images/icon-luxury.svg');
 }
 
 .card:nth-child(3) button{
