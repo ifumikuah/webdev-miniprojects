@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie List</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Workbench&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <h1 class="brand">
+      Cinematica
+    </h1>
+    <div class="search-bar">
+      <input type="text" name="search" class="search" id="search" placeholder="Search Movie">
+      <div class="rwd-search">
+        <span class="material-symbols-outlined search-icon">
+          search
+        </span>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div class="page-title-container">
+      <h2 class="page-title container">
+        Popular
+      </h2>
+    </div>
+    <section class="cards-container container" id="card-container">
+      <div class="card">
+        <img class="card-img" src="https://dummyimage.com/320x460/888/fff.jpg" alt="">
+        <div class="card-info-container">
+          <div>
+            <h3 class="movie-title">Lorem Ipsum</h3>
+            <p class="movie-release">12 December 2018</p>
+          </div>
+          <p class="rating">8.89</p>
+        </div>
+        <div class="synopsis-container">
+          <h3 class="movie-title">Lorem Ipsum</h3>
+          <p class="movie-synopsis">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, non illo? Asperiores eaque minus, dicta necessitatibus corporis maxime deserunt aut voluptates repellat incidunt at ab sequi repellendus corrupti enim minima?
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
