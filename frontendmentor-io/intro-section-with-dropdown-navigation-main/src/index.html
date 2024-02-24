@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap w/ Vite</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="scss/styles.scss">
+    <script type="module" src="./js/main.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-xl">
+        <a class="navbar-brand mr-1" href="#">
+          <img src="assets/logo.svg" alt="Snap" width="82" height="24">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown mx-1">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Features
+              </a>
+              <ul class="dropdown-menu rounded-4">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <img class="d-inline" src="assets/icon-todo.svg" alt="">
+                    To Do List
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <img class="d-inline" src="assets/icon-calendar.svg" alt="">
+                    Calendar
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <img class="d-inline" src="assets/icon-reminders.svg" alt="">
+                    Reminder
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <img class="d-inline" src="assets/icon-planning.svg" alt="">
+                    Planning
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown mx-1">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Company
+              </a>
+              <ul class="dropdown-menu rounded-4">
+                <li><a class="dropdown-item" href="#">History</a></li>
+                <li><a class="dropdown-item" href="#">Our Team</a></li>
+                <li><a class="dropdown-item" href="#">Blog</a></li>
+              </ul>
+            </li>
+            <li class="nav-item mx-1">
+              <a class="nav-link" aria-current="page" href="#">Careers</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+          <button class="btn btn-outline-white shadow-none" type="submit">Login</button>
+          <button class="btn btn-outline-primary" type="submit">Register</button>
+        </div>
+      </div>
+    </nav>
+    <section class="container-1 container-xl d-flex justify-content-between">
+      <article class="article-1 d-flex flex-column justify-content-between me-5">
+        <div class="text">
+          <h1 class="big-title mt-5">Make Remote Work</h1>
+          <p class="my-2">
+            Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.
+          </p>
+          <button class="btn btn-primary mb-3" type="submit">Learn More</button>
+        </div>
+        <div class="sponsors d-flex justify-content-between">
+          <img class="sponsor-logo" src="assets/client-databiz.svg" alt="sponsor1">
+          <img class="sponsor-logo" src="assets/client-audiophile.svg" alt="sponsor2">
+          <img class="sponsor-logo" src="assets/client-meet.svg" alt="sponsor3">
+          <img class="sponsor-logo" src="assets/client-maker.svg" alt="sponsor4">
+        </div>
+      </article>
+      <img class="hero-img" src="assets/image-hero-desktop.png" width="480px" alt="hero">
+    </section>
+  </body>
+</html>
