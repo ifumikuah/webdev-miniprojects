@@ -12,3 +12,4 @@ My webdev journey
 |02-04-2024|[Self][Vanilla] TMDB Movie List|[Live](https://ifumikuah.github.io/webdev-miniprojects/self-miniprojects/tmdb-movie-list)|[Source](https://github.com/ifumikuah/webdev-miniprojects/tree/main/self-miniprojects/tmdb-movie-list)|
 |02-10-2024|[Self][Handlebars.js, SCSS, Bootstrap 5] Anime List with Pagination|[Live](https://ifumikuah.github.io/webdev-miniprojects/self-miniprojects/anime-list-pagination-i)|[Source](https://github.com/ifumikuah/webdev-miniprojects/tree/main/self-miniprojects/anime-list-pagination-i)|
 |02-24-2024|[Frontendmentor][SCSS, Bootstrap 5] Intro Section with Dropdown|[Live](https://clever-marshmallow-42f423.netlify.app)|[Source](https://github.com/ifumikuah/webdev-miniprojects/tree/main/frontendmentor-io/intro-section-with-dropdown-navigation-main)|
+|02-28-2024|[Self][React] Simple Todo App|[Live](https://meek-selkie-94cd57.netlify.app)|[Source](https://github.com/ifumikuah/learn-react/tree/eps-19)|
