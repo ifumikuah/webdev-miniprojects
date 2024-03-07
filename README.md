@@ -14,3 +14,4 @@ My webdev journey
 |02-24-2024|[Frontendmentor][SCSS, Bootstrap 5] Intro Section with Dropdown|[Live](https://clever-marshmallow-42f423.netlify.app)|[Source](https://github.com/ifumikuah/webdev-miniprojects/tree/main/frontendmentor-io/intro-section-with-dropdown-navigation-main)|
 |02-28-2024|[Self][React] Simple Todo App|[Live](https://meek-selkie-94cd57.netlify.app)|[Source](https://github.com/ifumikuah/learn-react/tree/eps-19)|
 |03-03-2024|[Self][React] Stopwatch App|[Live](https://reliable-naiad-5f2a7a.netlify.app)|[Source](https://github.com/ifumikuah/learn-react/tree/eps-25)|
+|03-08-2024|[Self][React] Simple Todo App II|[Live](https://ifumikuah.github.io/react-todo-app)|[Source](https://github.com/ifumikuah/react-todo-app)|
