@@ -15,3 +15,5 @@ My webdev journey
 |02-28-2024|[Self][React] Simple Todo App|[Live](https://meek-selkie-94cd57.netlify.app)|[Source](https://github.com/ifumikuah/learn-react/tree/eps-19)|
 |03-03-2024|[Self][React] Stopwatch App|[Live](https://reliable-naiad-5f2a7a.netlify.app)|[Source](https://github.com/ifumikuah/learn-react/tree/eps-25)|
 |03-08-2024|[Self][React] Simple Todo App II|[Live](https://ifumikuah.github.io/react-todo-app)|[Source](https://github.com/ifumikuah/react-todo-app)|
+|03-13-2024|[Self][Vanilla] Responsive I|[Live](https://ifumikuah.github.io/webdev-miniprojects/self-miniprojects/responsive-i/)|[Source](https://github.com/ifumikuah/webdev-miniprojects/tree/main/self-miniprojects/responsive-i)|
+|03-14-2024|[Self][Vanilla] Responsive II|[Live](https://ifumikuah.github.io/webdev-miniprojects/self-miniprojects/responsive-ii/)|[Source](https://github.com/ifumikuah/webdev-miniprojects/tree/main/self-miniprojects/responsive-ii)|

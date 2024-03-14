@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/x-icon" href="https://emojifavicon.dev/favicons/1f986.ico" />
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Quacity</title>
+</head>
+<body>
+  <header class="header">
+    <div class="branding">
+      <img class="branding__logo" src="assets/duckicon.svg" alt="companylogo">
+      <h1 class="branding__title">Quacity</h1>
+    </div>
+    <nav class="navbar--mobile">
+      <div class="btn--navbar navbar--mobile__openbtn">
+        <span class="material-symbols-rounded">
+          menu
+        </span>
+      </div>
+      <div class="navbar__offcanvas">
+        <div class="btn--navbar navbar--mobile__closebtn">
+          <span class="material-symbols-rounded">
+            close
+          </span>
+        </div>
+        <ul class="navbar__navlists">
+          <li class="navlists__list">
+            <a href="#">Home</a>
+          </li>
+          <li class="navlists__list">
+            <a href="#">Apps</a>
+          </li>
+          <li class="navlists__list">
+            <a href="#">Services</a>
+          </li>
+          <li class="navlists__list">
+            <a href="#">Blog</a>
+          </li>
+          <li class="navlists__list">
+            <a href="#">Business</a>
+          </li>
+          <li class="navlists__list">
+            <a href="#">Download</a>
+          </li>
+          <li class="navlists__list navbar__tl" id="lang-btn">
+            <span class="material-symbols-rounded">
+              translate
+            </span>
+            <div class="btn--list-tl">
+              <span id="lang">EN</span>
+              <span class="material-symbols-rounded">
+                expand_more
+              </span>
+            </div>
+            <div id="lang-context" class="context__menu--lang">
+              <div class="context__lang" data-lang-id=0>EN</div>
+              <div class="context__lang" data-lang-id=1>ID</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <nav class="navbar">
+      <ul class="navbar__navlists">
+        <li class="navlists__list">
+          <a href="#">Home</a>
+        </li>
+        <li class="navlists__list">
+          <a href="#">Apps</a>
+        </li>
+        <li class="navlists__list">
+          <a href="#">Services</a>
+        </li>
+        <li class="navlists__list">
+          <a href="#">Blog</a>
+        </li>
+        <li class="navlists__list">
+          <a href="#">Business</a>
+        </li>
+        <li class="navlists__list">
+          <a href="#">Download</a>
+        </li>
+        <li class="navlists__list navbar__tl" id="lang-btn">
+          <span class="material-symbols-rounded">
+            translate
+          </span>
+          <div class="btn--list-tl">
+            <span id="lang">EN</span>
+            <span class="material-symbols-rounded">
+              expand_more
+            </span>
+          </div>
+          <div id="lang-context" class="context__menu--lang">
+            <div class="context__lang" data-lang-id=0>EN</div>
+            <div class="context__lang" data-lang-id=1>ID</div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <div class="featured main__section">
+      <img class="featured__img" src="assets/featured-postthumb.jpg" alt="featured_duckpost">
+      <div class="featured__post">
+        <span class="badge">Features</span>
+        <h2 class="post__title post__title--featured">Quacking Insights: Understanding the Behavior of Ducks</h2>
+      </div>
+      <span class="featured__link-icons material-symbols-rounded">
+        open_in_new
+      </span>
+    </div>
+    <section class="recent main__section">
+      <h2 class="section__title">Recent Blog</h2>
+      <section class="recent__posts">
+        <article class="post">
+          <div class="post__img">
+            <img src="/assets/post1-thumb.jpg" alt="postthumbs">
+            <span class="badge">Tips & Tricks</span>
+          </div>
+          <h3 class="post__title post__title--recent">Building a Duck-Friendly Habitat in Your Backyard</h3>
+          <p class="post__desc">Transform your backyard into a haven for ducks with expert tips on creating the perfect habitat for these charming waterfowl.</p>
+        </article>
+        <article class="post">
+          <div class="post__img">
+            <img src="/assets/post2-thumb.jpg" alt="postthumbs">
+            <span class="badge">Features</span>
+          </div>
+          <h3 class="post__title post__title--recent">The Mysterious Migration of Ducks: Unraveling Nature's Journey</h3>
+          <p class="post__desc">Embark on a journey alongside ducks as we explore the remarkable phenomenon of migration and its significance in their lives.</p>
+        </article>
+        <article class="post">
+          <div class="post__img">
+            <img src="/assets/post3-thumb.jpg" alt="postthumbs">
+            <span class="badge">Features</span>
+          </div>
+          <h3 class="post__title post__title--recent">Folklore and Legends Surrounding These Waterfowl Wonders</h3>
+          <p class="post__desc">Delve into the rich tapestry of folklore and myths surrounding ducks, revealing tales from cultures around the globe.</p>
+        </article>
+        <article class="post">
+          <div class="post__img">
+            <img src="/assets/post4-thumb.jpg" alt="postthumbs">
+            <span class="badge">Tips & Tricks</span>
+          </div>
+          <h3 class="post__title post__title--recent">From Egg to Feather: The Fascinating Life Cycle of Ducks</h3>
+          <p class="post__desc">Explore the miraculous journey from egg to adulthood as we unravel the intriguing life cycle of these fascinating birds.</p>
+        </article>
+        <article class="post">
+          <div class="post__img">
+            <img src="/assets/post5-thumb.jpg" alt="postthumbs">
+            <span class="badge">Features</span>
+          </div>
+          <h3 class="post__title post__title--recent">Exploring Delicious Dishes and Cultural Significance</h3>
+          <p class="post__desc">Indulge your culinary curiosity with a global tour of duck dishes, uncovering the cultural traditions and flavors that define them.</p>
+        </article>
+      </section>
+    </section>
+  </body>
+  <div class="pre-footer">
+    <div class="pre-footer--overlay"></div>
+    <section class="app-start">
+      <h4 class="app-start__displaytext">Ready to experience the speed and simplicity of Quacity?</h4>
+      <div class="app-start__buttons">
+        <button class="btn btn--app-start btn--variant--fill">Get Started</button>
+        <button class="btn btn--app-start">Learn More
+          <span class="material-symbols-rounded">
+            chevron_right
+          </span>
+        </button>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="1024px-separator">
+        <div class="footer__section branding">
+          <img class="branding__logo" src="assets/duckicon.svg" alt="companylogo">
+          <h1 class="branding__title">Quacity</h1>
+        </div>
+        <div class="footer__section get-in-app">
+          <a href="#">
+            <img class="get-in-app__icon" src="assets/download-on-the-app-store-apple-logo-black-and-white.png" alt="app store">
+          </a>
+          <a href="#">
+            <img class="get-in-app__icon" src="assets/google-play-badge-logo-black-and-white.png" alt="play store">
+          </a>
+        </div>
+      </div>
+      <div class="footer__section footer__company-services">
+        <ul class="footer__company-services__container">
+          <li class="footer__service footer__service--title">
+            What we do
+          </li>
+          <li class="footer__service"><a href="#">Features</a></li>
+          <li class="footer__service"><a href="#">Security</a></li>
+          <li class="footer__service"><a href="#">Business</a></li>
+          <li class="footer__service"><a href="#">Services</a></li>
+        </ul>
+        <ul class="footer__company-services__container">
+          <li class="footer__service footer__service--title">
+            Use Quacity
+          </li>
+          <li class="footer__service"><a href="#">Android</a></li>
+          <li class="footer__service"><a href="#">iPhone</a></li>
+          <li class="footer__service"><a href="#">Mac/PC</a></li>
+          <li class="footer__service"><a href="#">Quacity Web</a></li>
+        </ul>
+        <ul class="footer__company-services__container">
+          <li class="footer__service footer__service--title">
+            About
+          </li>
+          <li class="footer__service"><a href="#">Blog</a></li>
+          <li class="footer__service"><a href="#">Meet The Team</a></li>
+          <li class="footer__service"><a href="#">Contact Us</a></li>
+        </ul>
+        <ul class="footer__company-services__container">
+          <li class="footer__service footer__service--title">
+            Social Media
+          </li>
+          <li class="footer__service"><a href="#">X</a></li>
+          <li class="footer__service"><a href="#">YouTube</a></li>
+          <li class="footer__service"><a href="#">Mastodon</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
