@@ -17,3 +17,4 @@ My webdev journey
 |03-08-2024|[Self][React] Simple Todo App II|[Live](https://ifumikuah.github.io/react-todo-app)|[Source](https://github.com/ifumikuah/react-todo-app)|
 |03-13-2024|[Self][Vanilla] Responsive I|[Live](https://ifumikuah.github.io/webdev-miniprojects/self-miniprojects/responsive-i/)|[Source](https://github.com/ifumikuah/webdev-miniprojects/tree/main/self-miniprojects/responsive-i)|
 |03-14-2024|[Self][Vanilla] Responsive II|[Live](https://ifumikuah.github.io/webdev-miniprojects/self-miniprojects/responsive-ii/)|[Source](https://github.com/ifumikuah/webdev-miniprojects/tree/main/self-miniprojects/responsive-ii)|
+|03-16-2024|[Frontendmentor][Vanilla] Recipe Page|[Live](https://ifumikuah.github.io/webdev-miniprojects/frontendmentor-io/recipe-page-main/)|[Source](https://github.com/ifumikuah/webdev-miniprojects/tree/main/frontendmentor-io/recipe-page-main)|
