@@ -18,7 +18,7 @@ const validateInput = (e) => {
 
   if (emailForm.getAttribute("data-valid") === "true") {
     window.location.replace(
-      `${window.location.origin}/success.html?mail=${emailInput.value}`
+      `${window.location.origin}${window.location.pathname}/success.html?mail=${emailInput.value}`
     );  
   }
 }
