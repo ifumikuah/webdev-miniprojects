@@ -1,0 +1,48 @@
+body {
+  position: relative;
+  padding: 3rem 1.5rem;
+  height: 100vh;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  flex: 1;
+  padding-top: 8rem;
+}
+
+.message > * {
+  margin-bottom: 2rem;
+}
+
+.message h1 {
+  font-size: 3rem;
+}
+
+#recipient-mail {
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: var(--charcoal-grey);
+  }
+  main {
+    background-color: var(--white);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 520px;
+    height: 520px;
+    padding: 3rem;
+    border-radius: 2rem;
+  }
+  .message {
+    padding: 0;
+  }
+}

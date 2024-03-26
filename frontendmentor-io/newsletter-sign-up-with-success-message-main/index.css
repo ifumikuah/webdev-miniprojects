@@ -1,0 +1,92 @@
+.hero img {
+  width: 100%;
+  pointer-events: none;
+  user-select: none;
+}
+
+.headline {
+  padding: 1.5rem;
+}
+
+.headline__content > * {
+  margin-bottom: 2rem;
+}
+
+.headline__content > ul > li {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: start;
+  column-gap: 1rem;
+}
+
+.headline__content > ul > li::before {
+  content: url(assets/images/icon-list.svg);
+}
+
+input, button {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
+.form__email > label {
+  font-weight: 700;
+}
+
+.form__email[data-valid] label::after {
+  position: absolute;
+  content: "";
+  right: 0;
+  color: var(--tomato);
+}
+
+.form__email[data-valid="false"] label::after {
+  position: absolute;
+  content: "Valid email required";
+  right: 0;
+  color: var(--tomato);
+}
+
+.form__email[data-valid="false"] input[type="text"] {
+  background-color: rgba(255, 99, 71, 0.2);
+  border: 2px solid var(--tomato);
+  color: var(--tomato);
+}
+
+@media screen and (min-width: 930px) {
+  body {
+    background-color: var(--charcoal-grey);
+    min-height: 100vh;
+    position: relative;
+  }
+  main {
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 640px;
+    left: 50%;
+    margin: 0 auto;
+    padding: 2rem;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 930px;
+  }
+  .hero {
+    display: flex;
+    height: 100%;
+  }
+  .hero img {
+    object-fit: none;
+    border-radius: 1.5rem;
+  }
+  .headline {
+    padding-right: 3rem;
+  }
+}
