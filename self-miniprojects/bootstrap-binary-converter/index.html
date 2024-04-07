@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Binary Translate</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+  <div role="button" class="toggle-theme position-fixed border border-2 rounded-3" id="cstToggleTheme">
+    <i class="fa-solid fa-moon position-absolute top-50 start-50 translate-middle fs-2"></i>
+  </div>
+  <header>
+    <h1 class="text-center py-2">Binary Translator</h1>
+  </header>
+  <main class="flex-fill py-5">
+    <div class="container">
+      <div class="mb-3">
+        <label for="formTextareaUtf" class="form-label fs-5">
+          ASCII UTF-8
+          <span role="button" id="clipboardText"><a href="javascript:void(0)">copy to clipboard</a></span>
+        </label>
+        <textarea class="form-control" id="formTextareaUTF" rows="4"></textarea>
+      </div>
+      <div class="mb-3">
+        <label for="formTextareaBinary" class="form-label fs-5">
+          Binary
+          <span role="button" id="clipboardBinary"><a href="javascript:void(0)">copy to clipboard</a></span>
+        </label>
+        <textarea class="form-control font-monospace" id="formTextareaBinary" rows="4"></textarea>
+      </div>
+    </div>
+  </main>
+  <footer class="text-center">
+    <small>&copy; 2024 Fadhil Suheri | <a class="text-decoration-none" href="https://github.com/ifumikuah"><i class="fa-brands fa-github"></i> Github</a></small>
+  </footer>
+  <script src="https://kit.fontawesome.com/f720d7f1f0.js" crossorigin="anonymous"></script>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>

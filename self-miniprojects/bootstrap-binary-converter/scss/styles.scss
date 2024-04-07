@@ -1,0 +1,36 @@
+// Def Bootstrap variable override
+
+$font-family-base: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+  "Helvetica Neue", sans-serif;
+$font-family-monospace: "JetBrains Mono", SFMono-Regular, Menlo, Monaco, Consolas,
+  "Liberation Mono", "Courier New", monospace;
+
+// Import Bootstrap
+
+@import "/node_modules/bootstrap/scss/bootstrap.scss";
+
+a {
+  text-decoration: none;
+}
+
+body {
+  transition: all .3s;
+}
+
+.toggle-theme {
+  width: 42px;
+  height: 42px;
+  bottom: 18px;
+  right: 18px;
+}
+
+#clipboardText, #clipboardBinary {
+  font-size: .75rem;
+}
+
+@media (min-width: 992px) { 
+  .container {
+    max-width: 800px;
+  }
+ }
