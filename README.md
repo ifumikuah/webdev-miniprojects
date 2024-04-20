@@ -24,3 +24,4 @@ My webdev journey
 |04-06-2024|[Self][Bootstrap 5] Bootstrap 5 Responsive III|[Live](https://ifumikuah.github.io/webdev-miniprojects/self-miniprojects/bs5-responsive-iii/)|[Source](https://github.com/ifumikuah/webdev-miniprojects/tree/main/self-miniprojects/bs5-responsive-iii)|
 |04-07-2024|[Self][Bootstrap 5] Bootstrap 5 Binary Converter|[Live](https://remarkable-entremet-337fd3.netlify.app/)|[Source](https://github.com/ifumikuah/webdev-miniprojects/tree/main/self-miniprojects/bootstrap-binary-converter)|
 |04-18-2024|[Self][Bootstrap 5] Bootstrap 5 Simple Form|[Live](https://joyful-stardust-0f2da3.netlify.app/)|[Source](https://github.com/ifumikuah/bootstrap-simple-form-i)|
+|04-20-2024|[Self][Vanilla] Custom Video Player|[Live](https://ifumikuah.github.io/webdev-miniprojects/self-miniprojects/custom-videoplayer-i/)|[Source](https://github.com/ifumikuah/webdev-miniprojects/tree/main/self-miniprojects/custom-videoplayer-i)|
